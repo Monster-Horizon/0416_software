@@ -1,0 +1,64 @@
+UserInfoData.json
+{
+	"user_kind":"User"
+	"content":{
+		"uID":""
+		"account":""
+		"pwd":""
+		"username":""
+		"address":""
+		"contact":""
+		"payAccount":""
+		"payPassword":""
+	}
+}
+
+OrderData.json
+{
+	"user_kind":"Order"
+	"content":{
+		"orderNumber":""
+		"serverCategory":""
+		"customerName":""
+		"servicer":""
+		"num":""
+		"price":""
+		"secondPrice":""
+		"state":""
+	}
+}
+
+
+
+ServicerData.json
+{
+	"user_kind":"Servicer"
+	"content":{
+		"sID":""
+		"account":""
+		"pwd":""
+		"servicerName":""		
+		"sContactInfo":""
+		"sikll":""
+		"sCertificate":""
+		"sEvaluate(point)":""
+		"ReceiptAccount":""
+	}
+}
+
+
+
+
+serviceListData.json
+{
+	"user_kind":"serviceList"
+	"content":{
+		"name":""
+		"price":""
+		"num":""
+		"address":""
+		"startTime":""
+		"endTime":""
+		"state":""
+	}
+}

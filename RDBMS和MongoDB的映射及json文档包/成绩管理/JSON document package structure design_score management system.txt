@@ -1,0 +1,65 @@
+teacherData.json
+{
+    "user_kind":"teacher",
+    "content":{
+        "TeaID":,
+        "TeaName":"",
+        "TeaBirthday":"",
+        "TeaSex":"",
+        "TeaTel":""
+    }
+}
+
+studentData.json
+{
+    "user_kind":"student",
+    "content":{
+        "StuID":,
+        "StuName":"",
+        "StuBirthday":"",
+        "StuSex":"",
+        "StuTel":"",
+        "StuClaID":""
+    }
+}
+
+parentData.json
+{
+    "user_kind":"parent",
+    "content":{
+        "ParID"  :,
+        "ParTel" :,
+        "StuID"  :
+    }
+}
+
+teacher_subject_bindData.json
+{
+    "subject_info":{
+        "subjectID":"",
+        "subjectName":"",
+        "ClaID":"",
+    },
+    "teacherID":""
+}
+
+student_subject_bindData.json
+{
+    "student_baseinfo":{
+        "StuID":"",
+        "StuName":""
+    }
+    "subject_info":{
+        "subjectID":"",
+        "subjectName":"",
+        "TeaID":"",
+        "ClaID":""
+    }
+}
+
+curriculum_teacher_assessment.json
+{
+    "assessment of instructional design":"",
+    "assessment of teaching implementation":"",
+    "assessment of teacher":""
+}
