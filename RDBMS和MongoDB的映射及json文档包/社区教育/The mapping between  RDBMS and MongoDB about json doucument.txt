@@ -1,0 +1,66 @@
+user_info.json
+{
+	IdentityID:
+	Name:
+	Sex:
+	Address:[{},{}]
+	TelephoneNumber:[{},{}]
+	Order:[{
+		Server_IdentityID:
+		Place:
+		Date:
+		StartTime:
+		EndTime:
+		State:
+		Evaluate_Description:
+		Evaluate_Grade:	
+	},{}]
+	Tag:[{Love shoes gens},{}]
+}
+
+
+
+server_info.json
+{
+	IdentityID:
+	Name:
+	Sex:
+	Position:[{},{}]
+	TelephoneNumber:[{},{}]
+	Course:[{
+		Name:
+		Price:
+	},{}]
+	Order:[{
+		User_IdentityID:
+		Place:
+		Date:
+		StartTime:
+		EndTime:
+		State:
+		Evaluate_Description:
+		Evaluate_Grade:	
+	},{}]
+	Tag:[{Love shoes gens},{}]
+	Educational：
+}
+
+
+educational_info.json
+{
+	IdentityID:
+	Name:
+	Address:
+	Description:
+	Tag:[{Love shoes gens},{}]
+	Evaluate:[{
+		IdentityID:
+		Description:
+	},{}]
+	Servers:[{
+		IdentityID:
+		Name:
+		Description:
+		Tag:[{},{}]
+	},{}]
+}
